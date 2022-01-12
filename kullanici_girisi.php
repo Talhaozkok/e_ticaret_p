@@ -27,7 +27,7 @@ if (isset($_POST['k_adi'])) {
             ];
         } else {
             // Normal kullanıcı 
-            header('location: /etic_odev/index.php');
+            header('location: index.php');
             $_SESSION['user'] = [
                 'id' => $userKontrol['id'],
                 'adi' => $userKontrol['kullanici_adi']
